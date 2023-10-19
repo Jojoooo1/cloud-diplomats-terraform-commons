@@ -1,0 +1,6 @@
+project_id = "xxxxxxx"
+
+org_id            = "xxxxxxx"
+billing_id        = "xxxxxx-xxxxxx-xxxxxx"
+domain            = "cloud-diplomats.com"
+commons_folder_id = "xxxxxx"
