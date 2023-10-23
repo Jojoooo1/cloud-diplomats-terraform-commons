@@ -23,11 +23,7 @@ module "commons_oauth_project" {
   folder_id                   = var.commons_folder_id
   disable_services_on_destroy = false
 
-  activate_apis = [
-    "iap.googleapis.com",
-  ]
+  activate_apis = []
 
   labels = local.common_labels
 }
-
-

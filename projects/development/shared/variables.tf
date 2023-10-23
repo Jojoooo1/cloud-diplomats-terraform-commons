@@ -8,3 +8,7 @@ variable "billing_id" {
   type        = string
 }
 
+variable "shared_folder_id" {
+  description = "Shared folder ID"
+  type        = string
+}

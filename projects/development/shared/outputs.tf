@@ -1,5 +1,5 @@
 output "host_project_id" {
-  value       = module.dev_shared_host_project.project_id
-  description = "The name of the host project"
+  value       = module.shared_host_dev_project.project_id
+  description = "The ID of the host project"
 }
 

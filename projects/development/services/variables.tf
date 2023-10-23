@@ -8,3 +8,12 @@ variable "billing_id" {
   type        = string
 }
 
+variable "service_folder_id" {
+  description = "Service folder ID"
+  type        = string
+}
+
+variable "host_project_id" {
+  description = "Host project ID"
+  type        = string
+}

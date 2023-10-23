@@ -24,7 +24,6 @@ module "commons_dns_project" {
   disable_services_on_destroy = false
 
   activate_apis = [
-    "logging.googleapis.com",
     "dns.googleapis.com"
   ]
 

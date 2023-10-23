@@ -1,3 +1,4 @@
 org_id            = "xxxxxx"
 billing_id        = "xxxxxx-xxxxxx-xxxxxx"
-shared_folder_id = "xxxxxx"
+service_folder_id = "xxxxxx"
+host_project_id   = "xxxxxx"
