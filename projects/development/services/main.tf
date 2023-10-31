@@ -69,4 +69,3 @@ module "service_test_project" {
 
   labels = local.common_labels
 }
-

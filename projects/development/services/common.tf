@@ -18,7 +18,7 @@ terraform {
 #   backend = "gcs"
 
 #   config = {
-#     bucket = "tf-state-16958"
-#     prefix = "terraform/state/network/shared-host"
+#     bucket = "tf-state-19590"
+#     prefix = "terraform/state/network/shared-vpc"
 #   }
 # }

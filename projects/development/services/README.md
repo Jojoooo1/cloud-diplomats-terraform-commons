@@ -4,22 +4,26 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.7 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | >= 4.84 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | >= 5.4 |
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_terraform"></a> [terraform](#provider\_terraform) | n/a |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_service_dev_project"></a> [service\_dev\_project](#module\_service\_dev\_project) | terraform-google-modules/project-factory/google | 14.3 |
-| <a name="module_service_test_project"></a> [service\_test\_project](#module\_service\_test\_project) | terraform-google-modules/project-factory/google | 14.3 |
+| <a name="module_service_dev_project"></a> [service\_dev\_project](#module\_service\_dev\_project) | terraform-google-modules/project-factory/google | 14.4 |
+| <a name="module_service_test_project"></a> [service\_test\_project](#module\_service\_test\_project) | terraform-google-modules/project-factory/google | 14.4 |
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [terraform_remote_state.shared_vpc](https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/data-sources/remote_state) | data source |
 
 ## Inputs
 
