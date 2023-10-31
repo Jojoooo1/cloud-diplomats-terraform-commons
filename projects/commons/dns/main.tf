@@ -12,7 +12,7 @@ locals {
  *****************************************/
 module "commons_dns_project" {
   source  = "terraform-google-modules/project-factory/google"
-  version = "14.3"
+  version = "14.4"
 
   random_project_id        = true
   random_project_id_length = 4
