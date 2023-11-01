@@ -30,7 +30,7 @@ module "shared_host_dev_project" {
     "logging.googleapis.com",
     "billingbudgets.googleapis.com",
 
-    # Needed by your bastion host
+    # Needed for bastion host
     "iap.googleapis.com",
     "monitoring.googleapis.com",
     "networkmanagement.googleapis.com"
