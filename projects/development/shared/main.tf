@@ -27,12 +27,12 @@ module "shared_host_dev_project" {
 
   activate_apis = [
     "servicenetworking.googleapis.com",
-    "logging.googleapis.com",
     "billingbudgets.googleapis.com",
 
     # Needed for bastion host
     "iap.googleapis.com",
     "monitoring.googleapis.com",
+    "logging.googleapis.com",
     "networkmanagement.googleapis.com"
   ]
 
