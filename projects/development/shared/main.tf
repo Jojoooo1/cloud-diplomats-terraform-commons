@@ -29,11 +29,11 @@ module "shared_host_dev_project" {
     "servicenetworking.googleapis.com",
     "billingbudgets.googleapis.com",
 
-    # Needed for bastion host
-    "iap.googleapis.com",
     "monitoring.googleapis.com",
     "logging.googleapis.com",
-    "networkmanagement.googleapis.com"
+    "networkmanagement.googleapis.com",
+    "container.googleapis.com", # gke
+    "iap.googleapis.com",       # bastion host
   ]
 
   labels = local.common_labels
