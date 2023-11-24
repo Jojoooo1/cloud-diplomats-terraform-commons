@@ -1,0 +1,4 @@
+org_id            = "xxxxxx"
+billing_id        = "xxxxxx-xxxxxx-xxxxxx"
+service_folder_id = "xxxxxx"
+host_project_id   = "xxxxxx"

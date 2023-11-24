@@ -8,7 +8,7 @@ locals {
 }
 
 /******************************************
-  Service Project
+  DNS Project
  *****************************************/
 module "commons_dns_project" {
   source  = "terraform-google-modules/project-factory/google"

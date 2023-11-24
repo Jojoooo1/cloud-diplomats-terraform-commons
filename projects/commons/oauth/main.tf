@@ -8,7 +8,7 @@ locals {
 }
 
 /******************************************
-  Service Project
+  OAuth Project
  *****************************************/
 module "commons_oauth_project" {
   source  = "terraform-google-modules/project-factory/google"
