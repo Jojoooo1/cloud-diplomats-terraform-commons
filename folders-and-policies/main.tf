@@ -14,6 +14,9 @@ locals {
     "iam.disableServiceAccountKeyCreation",
     "iam.disableServiceAccountKeyUpload",
 
+    // After you create a single centralized workload identity pool:
+    // constraints/iam.workloadIdentityPoolProviders
+
     // VM policies:
     "compute.disableNestedVirtualization",
     "compute.disableSerialPortAccess",
