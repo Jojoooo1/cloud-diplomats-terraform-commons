@@ -7,6 +7,8 @@ locals {
   }
 }
 
+
+
 /******************************************
   Workload identity federation Project:
   https://cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation
@@ -19,6 +21,7 @@ locals {
   All identities in a group: 	principalSet://iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/group/GROUP_ID
   (recommended) All identities with a specific attribute value: 	principalSet://iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/attribute.ATTRIBUTE_NAME/ATTRIBUTE_VALUE
 
+  example: principalSet://iam.googleapis.com/projects/xxxxxxx/locations/global/workloadIdentityPools/github-actions/attribute.repository_owner/Jojoooo1
  *****************************************/
 module "commons_workload_identity_federation_project" {
   source  = "terraform-google-modules/project-factory/google"
